@@ -1,5 +1,5 @@
 # Environment variables and local secrets
-.env
+.env123
 .env.*
 !.env.example
 .streamlit/secrets.toml
