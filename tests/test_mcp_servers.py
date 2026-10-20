@@ -119,7 +119,7 @@ class TestReadStudyFile:
 
     def test_non_md_file_blocked(self):
         """Non-.md files should return error string."""
-        result = read_study_file("requirements.txt")
+        result = read_study_file("requirements_old.txt")
         assert result.startswith("Error:")
 
     def test_returns_string_not_bytes(self):

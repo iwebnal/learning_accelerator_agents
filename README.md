@@ -71,7 +71,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for a full deep-dive.
 git clone https://github.com/sandeepmb/freecodecamp-multi-agent-ai-system
 cd freecodecamp-multi-agent-ai-system
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements_old.txt
 
 # 2. Pull your model (choose based on VRAM)
 ollama pull qwen2.5:7b          # 8 GB VRAM
